@@ -65,7 +65,7 @@ public class DelegateReply implements EmbeddedServletContainerCustomizer {
     @RequestMapping(value ="/test")
     @ResponseBody
 	public String repqqqly() {
-    	return "test success.";
+    	return "test success................";
     }
     
     @RequestMapping(value ="/reply", method = RequestMethod.POST)
